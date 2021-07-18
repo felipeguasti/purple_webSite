@@ -1,0 +1,156 @@
+html {
+    background-color: rgb(165, 76, 147);
+}
+body {
+    font-family: Tahoma, sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.post-banner img {
+    display:block;
+}
+/*Page banner*/
+.post-banner {
+    position: relative;
+}
+.banner-description {
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:rgba(0,0,0, .65);
+    padding: 15px 25px;
+    color:rgb(255, 255, 255);
+}
+
+/*End of Page banner*/
+.page-image img {
+    display: block;
+}
+/*Post pictures*/
+.page-image {
+    position: relative;
+}
+.image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .65);
+    color:rgb(255,255,255);
+    padding: 15px 25px;
+}
+
+/*End post pictures*/
+
+table {
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Tables*/
+thead {
+    background-color:rgb(165, 76, 147);
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgba(0,0,0, .4);
+}
+
+thead th { 
+    padding: 10px 10px;
+}
+tbody td {
+    border: 2px solid rgb(228, 181, 218);
+}
+
+/*End Tables*/
+
+
+header {
+    color:rgb(165, 76, 147);
+    padding-top: 40px;
+}
+header h1 {   
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Site Navigation */
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 40px;
+}
+.site-nav li {
+    list-style: none;
+}
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color:rgb(165, 76, 147);
+    float: left;
+    margin-right: 5px;
+    border: 3px solid rgb(228, 181, 218);
+    border-bottom: none;
+    padding: 10px 20px;
+
+}
+.site-nav a:hover{
+    color: rgb(255,255,255);
+    background-color:rgb(228, 181, 218);
+}
+
+/*End Site Navigation*/
+
+.container{
+    background-color:rgb(255, 255, 255);
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.content-area {
+    text-align: justify;
+    border-top: 3px solid rgb(228, 181, 218);;
+    border-bottom: 3px solid rgb(228, 181, 218);
+}
+.main-area {
+    width: 66%;
+    float: left;
+}
+.sidebar {
+    background-color:rgb(228, 181, 218);
+    width: 30%;
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+footer {
+    color: rgb(228, 181, 218);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(165, 76, 147);
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
